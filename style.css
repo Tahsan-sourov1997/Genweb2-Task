@@ -1,0 +1,541 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Font Import */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Search Box section CSS start */
+body .search-box {
+    position: relative;
+    margin-left: 15px;
+}
+
+body #search .search-box .icon-position {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+body #search .button-width {
+    margin-right: 10px;
+}
+
+body #search .icon-size {
+    position: relative;
+    margin-left: 112px;
+}
+
+body #search .icon-size i {
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+body #search .icon-size .circle1 {
+    position: absolute;
+    top: 7px;
+    right: 73px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #246124;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body #search .icon-size .circle2 {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #246124;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Search Box section CSS End */
+
+/* Search Nav section CSS start */
+body #nav .nav-section {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+body #nav .nav-section .dept-button button {
+    background-color: #76b11f;
+    border-radius: 5px;
+    width: auto;
+    color: #ffffff;
+}
+
+/* Search Nav section CSS start */
+
+/* Line CSS start */
+body .line {
+    width: 100vw;
+    height: 1px;
+    background-color: #929292;
+    margin: 12px 0;
+}
+
+/* Line CSS End */
+
+
+/* Carousel section CSS start */
+body #carousel .carousel-items {
+    margin-top: 25px;
+    width: 100%;
+    height: 75vh;
+    border-radius: 10px;
+    z-index: -1;
+    opacity: 2;
+}
+
+body #carousel .circle {
+    height: 8px;
+    width: 8px;
+    background-color: #666666;
+    border-radius: 50%;
+}
+
+body #carousel .active {
+    background-color: #0f0f0f;
+}
+
+body #carousel .shiping-pragraph {
+    position: relative;
+}
+
+body #carousel .shiping-pragraph .shipping1 {
+    position: absolute;
+    top: 140px;
+    left: 190px;
+    background-color: #FFC107;
+    padding: 5px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+body #carousel .shiping-pragraph .shipping2 {
+    position: absolute;
+    top: 175px;
+    left: 190px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    width: 322px;
+}
+
+body #carousel .shiping-pragraph .shipping3 {
+    position: absolute;
+    top: 278px;
+    left: 190px;
+    font-family: 'Inter', sans-serif;
+    color: #8b8b8b;
+    font-size: 16px;
+    font-weight: bold;
+    width: 400px;
+}
+
+body #carousel .shiping-pragraph .order-button {
+    position: absolute;
+    top: 330px;
+    left: 190px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border: none;
+    background-color: #001E2B;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+body #carousel .shiping-pragraph .order-button i {
+    margin-left: 7px;
+    border-style: none;
+}
+
+/* Carousel section CSS start */
+
+/* Featured section CSS start */
+body #featured h3 {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+/* Featured section CSS End */
+
+/* Fruits section CSS start */
+body #fruits {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+body #fruits .fruit-divison .background-image {
+    height: 250px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    position: relative;
+}
+
+body #fruits .fruit-divison .background-image h3 {
+    position: absolute;
+    top: 60px;
+    left: 38px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+body #fruits .fruit-divison .background-image h6 {
+    position: absolute;
+    top: 92px;
+    left: 38px;
+    overflow: hidden;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: #9f9e9e;
+}
+
+body #fruits .fruit-divison .background-image button {
+    position: absolute;
+    top: 118px;
+    left: 0px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    border: none;
+    background-color: #001E2B;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+body #fruits .fruit-divison :last-child {
+    margin-left: 40px;
+
+}
+
+/* Fruits section CSS End */
+
+/* Popular section CSS start */
+body #popular .stars-outer {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+}
+
+body #popular .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: 10px;
+}
+
+body #popular .stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+    font-size: 10px;
+}
+
+body #popular .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+    font-size: 10px;
+}
+
+body #popular .add-button {
+    border: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #0AAD0A;
+    padding: 5px 10px;
+    font-size: 14px;
+
+
+}
+
+body #popular .heading1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #919090;
+}
+
+body #popular .heading2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+body #popular .price {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #2e2d2d;
+    font-weight: 600;
+}
+
+body #popular .del-price {
+    color: #7c7c7c;
+}
+
+body #popular .card-area {
+    position: relative;
+}
+
+body #popular .sale {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    background-color: #ff0000;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+body #popular .not-sale {
+    position: absolute;
+    top: 13px;
+    left: 22px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    background-color: #0AAD0A;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+body #popular .number-rating {
+    font-size: 12px;
+    font-weight: bold;
+    color: #969696;
+}
+
+body #popular .total-reviewer {
+    font-size: 12px;
+    font-weight: bold;
+    color: #969696;
+}
+
+/* Popular section CSS start */
+
+/* Daily section CSS start */
+body #daily .daily-card {
+    position: relative;
+}
+
+body #daily .daily-card .coffee {
+    position: absolute;
+    top: 37px;
+    left: 13px;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    width: 329px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+body #daily .daily-card h3 {
+    position: absolute;
+    top: 117px;
+    left: 13px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body #daily .daily-card button {
+    position: absolute;
+    top: 147px;
+    left: 13px;
+    background-color: #0AAD0A;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+body #daily .daily-number-rating {
+    font-size: 14px;
+    font-weight: bold;
+    color: #141414;
+}
+
+body #daily .daily-stars-outer {
+    position: relative;
+    display: inline-block;
+    font-size: 10px;
+}
+
+body #daily .daily-product-card .card-area .card-body .daily-rating .daily-stars-outer .daily-stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: 10px;
+}
+
+body #daily .daily-product-card .card-area .card-body .daily-rating .daily-stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+    font-size: 10px;
+}
+
+body #daily .daily-product-card .card-area .card-body .daily-rating .daily-stars-outer .daily-stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+    font-size: 10px;
+}
+
+body #daily .daily-product-card .card-area .card-body .daily-heading1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #919090;
+}
+
+body #daily .daily-product-card .card-area .card-body .daily-heading2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #050505;
+    font-weight: bold;
+}
+
+body #daily .daily-price {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #2e2d2d;
+    font-weight: 600;
+}
+
+body #daily .daily-del-price {
+    color: #7c7c7c;
+}
+
+body #daily .daily-product-card {
+    position: relative;
+}
+
+body #daily .daily-product-card .daily-button {
+    position: absolute;
+    top: 355px;
+    left: 0;
+}
+
+body #daily .daily-product-card .daily-day {
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+
+body #daily .daily-time {
+    position: absolute;
+    top: 408px;
+    left: 0
+}
+
+/* Daily section CSS End */
+
+/* All icon section CSS start */
+body #all-icon .all .icon {
+    font-size: 40px;
+    color: #26B626;
+}
+
+body #all-icon .all .heading {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+body #all-icon .all .pragraph {
+    font-size: 16px;
+    color: #a3a2a2;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+/* All icon section CSS start */
+
+/* Last section CSS start */
+body #last .all-category .list {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+body #last .all-category .heading {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+body #last .all-category .sendItemOfList {
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+body #last .all-items .item {
+    width: 35px;
+    height: 35px;
+    color: #808080;
+    border: 1px solid #808080;
+}
+
+body #last .paymeny-delivery .payment-and-delivery {
+    font-size: 16px;
+    color: #2c2c2c;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+body #last .all-items .copyright-follow {
+    font-size: 14px;
+    color: #757575;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+/* Last section CSS End */
